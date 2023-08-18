@@ -5,6 +5,8 @@ import profile from '../../public/images/profile/maicoldev.png'
 import AnimationText from '@/components/AnimationText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
+import HireMe from '@/components/HireMe'
+import logo from '../../public/images/logo_maicoldev.png'
 
 export default function Home() {
   return (
@@ -17,7 +19,9 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen'>
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
-            
+          <div className='w-1/2'>
+              <Image src={profile} alt='MaicolDev' className='w-full h-auto'/>
+            </div >
             <div className='w-1/2 flex flex-col items-center self-center' >
               <AnimationText className='!text-6xl !text-left' text="Develop imagination with code and make it reality."/>
               <p className='my-4 text-base font-medium'>
@@ -45,11 +49,15 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-1/2'>
-              <Image src={profile} alt='MaicolDev' className='w-full h-auto'/>
-            </div >
+            
           </div>
         </Layout>
+
+        <HireMe/>
+        
+        <div className='absolute right-8 bottom-8 inline-block w-48'>
+          <Image src={logo} alt='maicoldev' className='w-full h-auto'/>
+        </div>
       </main>
     </>
   )
