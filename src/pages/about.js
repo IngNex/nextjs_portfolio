@@ -5,6 +5,7 @@ import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 import profile from '../../public/images/profile/profile.jpg'
 import { useSpring, useInView, useMotionValue } from 'framer-motion'
+import Skills from '@/components/about/Skills'
 
 
 const AnimationNumbers =  ({value})=>{
@@ -87,8 +88,8 @@ const about = () => {
                     <h2 className='text-xl font-medium capitalize text-dark/75'>years of experience</h2>
                   </div>
                 </div>
-                
             </div>
+            <Skills/>
         </Layout>
       </main>
     </>
