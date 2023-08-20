@@ -36,14 +36,14 @@ export default function Home() {
                 border-2 border-solid border-transparent hover:border-dark' 
                 href="/dummy.pdf"
                 download={true} 
-                target={"_black"}>
+                target={"_blank"}>
                   Resume
                   <LinkArrow className={"w-6 ml-1"}/>
                 </Link>
                 <Link
                 className='ml-4 px-6 text-lg font-medium capitalize text-dark
                 underline '
-                href="mailto:michaelrogger.contacto@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail" target={"_black"}>
+                href="mailto:michaelrogger.contacto@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail" target={"_blank"}>
                   Contact
                 </Link>
               </div>
