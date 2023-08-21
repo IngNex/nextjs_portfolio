@@ -5,11 +5,14 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer className='w-full border-t-2 border-solid border-dark
-    font-medium text-lg'>
+    font-medium text-lg dark:text-light dark:border-light'>
         <Layout className='py-8 flex items-center justify-between'>
             <span>{new Date().getFullYear()} &copy; All Right Reserved</span>
             <div className='flex items-center'>
-                I love Code <span className='text-red-600 text-2xl px-2'>&#9825;</span>
+                I love Code 
+                <span 
+                className='text-primary text-2xl px-2 dark:text-primaryDark'>
+                  &#9825;</span>
                 <Link href="https://www.youtube.com/@maicoldeveloper" 
                 className='underline underline-offset-2' target={'_blank'}>MaicolDev</Link>
             </div>
