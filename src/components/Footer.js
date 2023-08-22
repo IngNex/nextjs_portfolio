@@ -5,10 +5,11 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer className='w-full border-t-2 border-solid border-dark
-    font-medium text-lg dark:text-light dark:border-light'>
-        <Layout className='py-8 flex items-center justify-between'>
+    font-medium text-lg dark:text-light dark:border-light sm:text-base'>
+        <Layout className='py-8 flex items-center justify-between
+        lg:flex-col lg:py-6'>
             <span>{new Date().getFullYear()} &copy; All Right Reserved</span>
-            <div className='flex items-center'>
+            <div className='flex items-center lg:py-2'>
                 I love Code 
                 <span 
                 className='text-primary text-2xl px-2 dark:text-primaryDark'>
