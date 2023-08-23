@@ -31,8 +31,8 @@ export default function Home() {
               <AnimationText 
               className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' 
-              //text="Develop imagination with code and make it reality."
-              text="Turn vision into reality with code and design."
+              text="Develop imagination with code and make it reality."
+              //text="Turn vision into reality with code and design."
               />
               <p className='my-4 text-base font-medium
               md:text-sm sm:text-xs'>
@@ -69,8 +69,8 @@ export default function Home() {
 
         <HireMe/>
         
-        <div className='absolute right-8 bottom-8 inline-block w-48
-        lg:hidden'>
+        <div className='absolute right-8 bottom-8 inline-block w-40
+        md:hidden'>
           <Image src={logo} alt='maicoldev' className='w-full h-auto'/>
         </div>
       </main>
