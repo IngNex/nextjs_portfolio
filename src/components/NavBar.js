@@ -130,7 +130,7 @@ return (
         className='min-w-[70vw] flex flex-col justify-between items-center
         z-30
         fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-        bg-dark/75 dark:bg-light/75 rounded-lg backdrop-blur-md py-32 '>
+        bg-dark/75 dark:bg-light/75 rounded-2xl backdrop-blur-md py-32 '>
             <nav className='flex items-center flex-col justify-center'>
                 <CustomMobileLink href="/" title="Home" className='' toggle={handleClick}/>
                 <CustomMobileLink href="/about" title="About" className='' toggle={handleClick}/>
@@ -139,17 +139,17 @@ return (
             </nav>
             
             <nav className='flex items-center justify-center flex-wrap mt-2'>
-                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mr-3 sm:max-1">
+                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mr-3 sm:mx-1">
                     <TwitterIcon/></motion.a>
-                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3 sm:max-1
+                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3 sm:mx-1
                 bg-light rounded-full dark:bg-dark">
                     <GithubIcon/></motion.a>
-                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3 sm:max-1">
+                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3 sm:mx-1">
                     <LinkedInIcon/></motion.a>
-                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3 sm:max-1
+                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3 sm:mx-1
                 bg-light rounded-full">
                     <PinterestIcon/></motion.a>
-                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 ml-3 sm:max-1">
+                <motion.a href="" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 ml-3 sm:mx-1">
                     <DribbbleIcon/></motion.a>
 
                 
