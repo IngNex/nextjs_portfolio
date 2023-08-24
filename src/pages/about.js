@@ -8,6 +8,7 @@ import { useSpring, useInView, useMotionValue } from 'framer-motion'
 import Skills from '@/components/about/Skills'
 import Experience from '@/components/about/Experience'
 import Education from '@/components/about/Education'
+import TransitionEffect from '@/components/utils/TransitionEffect'
 
 
 const AnimationNumbers =  ({value})=>{
@@ -44,6 +45,7 @@ const about = () => {
         <title>MaicolDev | About Page</title>
         <meta name='description' content='any description'/>
       </Head>
+      <TransitionEffect/>
       <main className='flex w-full flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
             {/* ============  Text in about  ============ */}

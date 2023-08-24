@@ -8,6 +8,7 @@ import article1 from '../../public/images/articles/create loading screen in reac
 import article2 from '../../public/images/articles/pagination component in reactjs.jpg'
 import {motion, useMotionValue} from "framer-motion"
 import article3 from '../../public/images/articles/What is higher order component in React.jpg'
+import TransitionEffect from '@/components/utils/TransitionEffect'
 
 const FramerImage = motion(Image);
 
@@ -101,6 +102,7 @@ const articles = () => {
         <title>MaicolDev | Articles Page</title>
         <meta name='description' content='any description'/>
       </Head>
+      <TransitionEffect/>
       <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
       <Layout className='pt-16'>
         <AnimationText text="Words Can Change The World!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
