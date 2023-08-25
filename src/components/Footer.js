@@ -8,7 +8,7 @@ const Footer = () => {
     font-medium text-lg dark:text-light dark:border-light sm:text-base'>
         <Layout className='py-8 flex items-center justify-between
         lg:flex-col lg:py-6'>
-            <span>{new Date().getFullYear()} &copy; All Right Reserved</span>
+            <span>&copy; All Right Reserved {new Date().getFullYear()}</span>
             <div className='flex items-center lg:py-2'>
                 I love Code 
                 <span 
@@ -17,8 +17,8 @@ const Footer = () => {
                 <Link href="https://www.youtube.com/@maicoldeveloper" 
                 className='underline underline-offset-2' target={'_blank'}>MaicolDev</Link>
             </div>
-            <Link href="https://www.youtube.com/@maicoldeveloper" className='underline underline-offset-2' target={'_blank'}>
-                Say Hello
+            <Link href="https://www.tiktok.com/@maicoldev" className='underline underline-offset-2' target={'_blank'}>
+              Developer TikTok
             </Link>
         </Layout>
     </footer>

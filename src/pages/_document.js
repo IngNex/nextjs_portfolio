@@ -5,7 +5,12 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body 
+      className='scrollbar 
+      scrollbar-thumb-primary scrollbar-track-gray-300 
+      dark:scrollbar-thumb-primaryDark dark:scrollbar-track-zinc-800
+      scrollbar-w-2.5 scrollbar-thumb-rounded-xl'
+      >
         <Script id="theme-switcher" strategy="beforeInteractive">
           {`
             if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {

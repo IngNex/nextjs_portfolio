@@ -33,14 +33,14 @@ export default function Home() {
               <AnimationText 
               className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' 
-              text="Develop imagination with code and make it reality."
-              //text="Turn vision into reality with code and design."
+              text="Develop reality with code and imagination."
+              //text="Develop imagination with code and make it reality."
               />
               <p className='my-4 text-base font-medium
               md:text-sm sm:text-xs'>
-                As a skilled full-stack developer, I am dedicated to 
-                turning ideas into innovative web applications. 
-                Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+                As a Frontend Developer Jr., I am dedicated to turning ideas into creative mobile and web applications. 
+                Explore my latest projects and codes of practice, 
+                showcasing my expertise in app development with Flutter and web development.
               </p>
               <div className='flex items-center self-start lg:self-center'>
                 <Link className='flex items-center bg-dark text-light 
@@ -50,8 +50,8 @@ export default function Home() {
                 dark:bg-light dark:text-dark 
                 hover:dark:bg-dark hover:dark:text-light hover:dark:border-light
                 md:p-2 md:px-4 md:text-base' 
-                href="/dummy.pdf"
-                download={true} 
+                href="/cv_michaelrodriguez.pdf"
+                //download={true} 
                 target={"_blank"}>
                   Resume
                   <LinkArrow className={"w-6 ml-1"}/>

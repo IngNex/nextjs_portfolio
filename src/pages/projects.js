@@ -5,7 +5,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project1 from "../../public/images/projects/1.jpg"
+import project2 from "../../public/images/projects/2.jpg"
+import project3 from "../../public/images/projects/3.jpg"
+import project4 from "../../public/images/projects/4.jpg"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/utils/TransitionEffect'
 
@@ -126,68 +129,67 @@ const projects = () => {
       <TransitionEffect/>
       <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
-            <AnimationText text="Imagination Trumps Knowledge!"
+            <AnimationText text="Code innovates knowledge!!"
             className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
             <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                 <div className='col-span-12'>
                     <FeaturedProject
-                    title="Crypto Screener Application"
-                    img={project1}
-                    summary=" A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
+                    title="Portfolio Personal Web"
+                    img={project3}
+                    summary="A Personal Portfolio web page in which he uses React, NextJs, Tailwind CSS, 
+                    React Router, FramerMotion, DarkMode. It shows information about me and the projects 
+                    that I carry out or practice."
                     link="/"
                     type="Featured Project"
-                    github="/"
+                    github="https://github.com/IngNex/nextjs_portfolio"
                     />
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
-                    
                     <Project
-                    title="Crypto Screener Application"
+                    title="ApiRest Pokemon UI Mobile"
                     img={project1}
-                    link="/"
-                    type="Featured Project"
-                    github="/"
+                    link="https://github.com/IngNex/flutter-apipokemon-practice"
+                    type="Practice Project"
+                    github="https://github.com/IngNex/flutter-apipokemon-practice"
                     />
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project
-                    title="Crypto Screener Application"
-                    img={project1}
-                    link="/"
-                    type="Featured Project"
-                    github="/"
+                    title="ApiRest DragonBall UI Mobile"
+                    img={project2}
+                    link="https://github.com/IngNex/flutter_dragonball_ui"
+                    type="Practice Project"
+                    github="https://github.com/IngNex/flutter_dragonball_ui"
                     />
                 </div>
                 <div className='col-span-12'>
                 <FeaturedProject
-                    title="Crypto Screener Application"
-                    img={project1}
-                    summary=" A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                    link="/"
+                    title="App Rick and Morty"
+                    img={project4}
+                    summary="A well featured technical test app using Flutter, Dart, Bloc, Animation, SearchWidget and Dark Theme. 
+                    I use the Rick and Morty API to display character and episode information, which can be done by selecting a 
+                    character and being able to view its information. Likewise, a character search engine was added."
+                    link="https://github.com/IngNex/rickandmorty_app"
                     type="Featured Project"
-                    github="/"
+                    github="https://github.com/IngNex/rickandmorty_app"
+                    />
+                </div>
+                <div className='col-span-6 sm:col-span-12'>
+                    <Project
+                    title="ApiRest Pokemon UI Mobile"
+                    img={project1}
+                    link="https://github.com/IngNex/flutter-apipokemon-practice"
+                    type="Practice Project"
+                    github="https://github.com/IngNex/flutter-apipokemon-practice"
                     />
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project
-                    title="Crypto Screener Application"
-                    img={project1}
-                    link="/"
-                    type="Featured Project"
-                    github="/"
-                    />
-                </div>
-                <div className='col-span-6 sm:col-span-12'>
-                <Project
-                    title="Crypto Screener Application"
-                    img={project1}
-                    link="/"
-                    type="Featured Project"
-                    github="/"
+                    title="ApiRest DragonBall UI Mobile"
+                    img={project2}
+                    link="https://github.com/IngNex/flutter_dragonball_ui"
+                    type="Practice Project"
+                    github="https://github.com/IngNex/flutter_dragonball_ui"
                     />
                 </div>
             </div>

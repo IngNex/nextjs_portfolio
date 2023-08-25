@@ -1,9 +1,10 @@
 import React, { useRef } from 'react'
 import { motion, useScroll } from "framer-motion"
 import LiIcon from './LiIcon'
+import Link from 'next/link';
 
 
-const Details =({type, time, place, info})=>{
+const Details =({type, time, place, info, link})=>{
     const ref = useRef(null);
     return <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]'>
         <LiIcon reference={ref}/>
@@ -12,9 +13,11 @@ const Details =({type, time, place, info})=>{
         whileInView={{y:0}}
         transition={{duration:0.5, type:'spring'}}
         >
-            <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
-                {type}
-            </h3>
+            <Link href={link} target={'_blank'}>
+              <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
+                  {type}
+              </h3>
+            </Link>
             <span className='capitalize font-medium text-dark/80 dark:text-light/80 xs:text-sm'>
                 {time} | {place}
             </span>
@@ -47,32 +50,19 @@ const Education = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
-            type='Bachelor Of Science In Computer Science'
-            time='2016-2020'
-            place='Massachusetts Institute Of Technology (MIT)'
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
-            />
+            type='Systems Engineering Bachelor'
+            time='2018-2022'
+            place='National University of Cañete (UNDC)'
+            info="Relevant courses included algorithms, data structure, web design, 
+            database, mobile applications with android studio, introduction to AI."
+            link="https://portal.undc.edu.pe"/>
             <Details
-            type='Bachelor Of Science In Computer Science'
-            time='2016-2020'
-            place='Massachusetts Institute Of Technology (MIT)'
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
-            />
-            <Details
-            type='Bachelor Of Science In Computer Science'
-            time='2016-2020'
-            place='Massachusetts Institute Of Technology (MIT)'
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
-            />
-            <Details
-            type='Bachelor Of Science In Computer Science'
-            time='2016-2020'
-            place='Massachusetts Institute Of Technology (MIT)'
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            type='Professional Technician Industrial Electrician'
+            time='2014-2016'
+            place='National Industrial Work Training Service (SENATI)'
+            info="Relevant courses included structured cabling, motor starting with PLC programming, 
+            electrical port programming, and hydraulic installation programming."
+            link="https://www.senati.edu.pe"
             />
         </ul>
       </div>

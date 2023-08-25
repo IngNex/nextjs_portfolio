@@ -53,38 +53,36 @@ const Experience = () => {
             <Details
             position='Mobile Developer'
             company='Promolider'
-            time='2023-Present'
+            time='01/2023 - 06/2023'
             address='Lima, Perú'
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            work="I worked in a team responsible for the development of the mobile application Promolider 
+            virtual classroom, I was in charge of the development of the user interfaces and user experience, 
+            consuming the Rest API to show and visualize the data of acquired courses, courses to buy, 
+            videos per course and the user in the mobile application. 
+            It was developed using Flutter, Dart, ResponsiveApp and ApiRest."
+            companyLink="https://promolider.org"
             />
             <Details
-            position='Mobile Developer'
-            company='Promolider'
-            time='2023-Present'
-            address='Lima, Perú'
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            position='Programmer tech'
+            company='Municipality of Mala'
+            time='03/2022 - 11/2022'
+            address='Mala, Perú'
+            work="I worked in development and computer science, I was in charge of implementing 
+            the website with wordpress, updating and configuring the paperwork system, managing 
+            the Cpanel and the database, also performing computer maintenance. 
+            It was developed using HTML, CSS, JavaScript and PHP."
+            companyLink="https://www.gob.pe/munimala"
             />
             <Details
-            position='Mobile Developer'
-            company='Promolider'
-            time='2023-Present'
+            position='Frontend Developer'
+            company='Agency Get Sales'
+            time='06/2022 - 09/2022'
             address='Lima, Perú'
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-            />
-            <Details
-            position='Mobile Developer'
-            company='Promolider'
-            time='2023-Present'
-            address='Lima, Perú'
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            work="I worked in a team responsible for developing a Marketplace, we were in charge of 
+            the user interface design, the development of components for the website and 
+            a login with Google was implemented. It was developed using HTML, 
+            CSS, JavaScript, ReactJs and PHP."
+            companyLink="https://consigueventas.com"
             />
         </ul>
       </div>

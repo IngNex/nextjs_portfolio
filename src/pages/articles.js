@@ -4,10 +4,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useRef } from 'react'
-import article1 from '../../public/images/articles/create loading screen in react js.jpg'
-import article2 from '../../public/images/articles/pagination component in reactjs.jpg'
+import article1 from '../../public/images/projects/3.jpg'
+import article2 from '../../public/images/projects/4.jpg'
 import {motion, useMotionValue} from "framer-motion"
-import article3 from '../../public/images/articles/What is higher order component in React.jpg'
+import article3 from '../../public/images/projects/3.jpg'
 import TransitionEffect from '@/components/utils/TransitionEffect'
 
 const FramerImage = motion(Image);
@@ -105,25 +105,26 @@ const articles = () => {
       <TransitionEffect/>
       <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
       <Layout className='pt-16'>
-        <AnimationText text="Words Can Change The World!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
+        <AnimationText text="Developers Can Change The World!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
         <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
             <FeaturedArticle
-            title="Build A Custom Pagination Component In Reactjs From Scratch"
-            summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-            Follow this step-by-step guide to integrate Pagination component in your ReactJS project.
+            title="Development portfolio web with NextJs"
+            summary="Soon I will develop articles on some algorithms or codes, which to carry out for the moment 
+            I will show some relevant projects that they carry out with Flutter and NextJs.
             "
-            time="9 min read"
-            link="/"
+            time="10 min read"
+            link="https://github.com/IngNex/nextjs_portfolio"
             img={article1}
             />
+
             
             <FeaturedArticle
-            title="Build A Custom Pagination Component In Reactjs From Scratch"
-            summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-            Follow this step-by-step guide to integrate Pagination component in your ReactJS project.
+            title="Development of a Mobile App with Flutter"
+            summary="Soon I will develop articles on some algorithms or codes, which to carry out for the moment 
+            I will show some relevant projects that they carry out with Flutter and NextJs.
             "
-            time="9 min read"
-            link="/"
+            time="10 min read"
+            link="https://github.com/IngNex/rickandmorty_app"
             img={article2}
             />
         </ul>
@@ -132,51 +133,55 @@ const articles = () => {
         </h2>
         <ul>
           <Article
-          title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-          date="March 22, 2023"
-          link="/"
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
           img={article3}
           />
           <Article
-          title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-          date="March 22, 2023"
-          link="/"
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
           img={article3}
-          />
-          <Article
-          title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-          date="March 22, 2023"
-          link="/"
+          /><Article
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
           img={article3}
-          />
-          <Article
-          title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-          date="March 22, 2023"
-          link="/"
+          /><Article
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
           img={article3}
-          />
-          <Article
-          title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-          date="March 22, 2023"
-          link="/"
+          /><Article
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
           img={article3}
-          />
-          <Article
-          title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-          date="March 22, 2023"
-          link="/"
+          /><Article
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
           img={article3}
-          />
-          <Article
-          title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-          date="March 22, 2023"
-          link="/"
+          /><Article
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
           img={article3}
-          />
-          <Article
-          title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-          date="March 22, 2023"
-          link="/"
+          /><Article
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
+          img={article3}
+          /><Article
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
+          img={article3}
+          /><Article
+          title="Develop your own personal web portfolio as a personal challenge."
+          date="March 16, 2023"
+          link="https://github.com/IngNex?tab=repositories"
           img={article3}
           />
         </ul>
