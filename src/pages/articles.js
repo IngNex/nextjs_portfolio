@@ -114,7 +114,7 @@ const articles = () => {
             "
             time="10 min read"
             link="https://github.com/IngNex/nextjs_portfolio"
-            img={article1}
+            img={"/images/projects/3.jpg"}
             />
 
             
@@ -125,7 +125,7 @@ const articles = () => {
             "
             time="10 min read"
             link="https://github.com/IngNex/rickandmorty_app"
-            img={article2}
+            img={"/images/projects/4.jpg"}
             />
         </ul>
         <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>
@@ -136,53 +136,53 @@ const articles = () => {
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           />
           <Article
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           /><Article
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           /><Article
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           /><Article
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           /><Article
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           /><Article
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           /><Article
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           /><Article
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           /><Article
           title="Develop your own personal web portfolio as a personal challenge."
           date="March 16, 2023"
           link="https://github.com/IngNex?tab=repositories"
-          img={article3}
+          img={"/images/projects/3.jpg"}
           />
         </ul>
       </Layout>
